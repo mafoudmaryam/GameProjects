@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="300" viewBox="0 0 520 300" font-family="Segoe UI, Arial, sans-serif" font-size="14">
+<rect width="520" height="300" fill="#ffffff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<line x1="40" y1="230" x2="480" y2="230" stroke="#3a6fb0" stroke-width="6"/>
+<text x="400" y="255" fill="#3a6fb0">surface</text>
+<line x1="260" y1="230" x2="260" y2="80" stroke="#c48a00" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="268" y="92" fill="#c48a00">n (unit normal)</text>
+<line x1="120" y1="90" x2="255" y2="225" stroke="#d33" stroke-width="3" marker-end="url(#a)"/>
+<text x="70" y="85" fill="#d33">v (incoming)</text>
+<line x1="262" y1="228" x2="400" y2="90" stroke="#1a9a4a" stroke-width="3" marker-end="url(#a)"/>
+<text x="370" y="80" fill="#1a9a4a">v′ = v − 2(v·n)n</text>
+<path d="M 230 200 A 42 42 0 0 1 260 188" fill="none" stroke="#555"/>
+<text x="222" y="180" fill="#555">θi</text>
+<path d="M 260 188 A 42 42 0 0 1 290 200" fill="none" stroke="#555"/>
+<text x="284" y="180" fill="#555">θr</text>
+<text x="40" y="285" fill="#222">Law of reflection: θi = θr. Only the part of v along n flips sign.</text>
+</svg>

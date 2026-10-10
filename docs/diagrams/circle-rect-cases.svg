@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+<rect width="600" height="270" fill="#12121c"/>
+<defs><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ffd400"/></marker></defs>
+<rect x="20" y="70" width="100" height="100" fill="#e1e4eb" stroke="#969aaa"/>
+<circle cx="150" cy="110" r="30" fill="#eb4646" fill-opacity="0.85" stroke="#b42828"/>
+<line x1="120" y1="110" x2="177.0" y2="110.0" stroke="#ffd400" stroke-width="2" marker-end="url(#b)"/>
+<circle cx="120" cy="110" r="4" fill="#ffc800"/>
+<text x="20" y="205" fill="#ffffff" font-weight="bold">Vertical face</text>
+<text x="20" y="225" fill="#c8c8d8">n=(±1,0) → vx = −vx</text>
+<rect x="220" y="70" width="100" height="100" fill="#e1e4eb" stroke="#969aaa"/>
+<circle cx="260" cy="40" r="30" fill="#eb4646" fill-opacity="0.85" stroke="#b42828"/>
+<line x1="260" y1="70" x2="260.0" y2="13.0" stroke="#ffd400" stroke-width="2" marker-end="url(#b)"/>
+<circle cx="260" cy="70" r="4" fill="#ffc800"/>
+<text x="220" y="205" fill="#ffffff" font-weight="bold">Horizontal face</text>
+<text x="220" y="225" fill="#c8c8d8">n=(0,±1) → vy = −vy</text>
+<rect x="420" y="70" width="100" height="100" fill="#e1e4eb" stroke="#969aaa"/>
+<circle cx="541" cy="49" r="30" fill="#eb4646" fill-opacity="0.85" stroke="#b42828"/>
+<line x1="520" y1="70" x2="559.9" y2="30.1" stroke="#ffd400" stroke-width="2" marker-end="url(#b)"/>
+<circle cx="520" cy="70" r="4" fill="#ffc800"/>
+<text x="420" y="205" fill="#ffffff" font-weight="bold">Corner (vertex)</text>
+<text x="420" y="225" fill="#c8c8d8">n diagonal → both change</text>
+<text x="20" y="248" fill="#8888a0" font-size="11">Yellow dot = closest point Q on the rectangle (clamp the centre into the box).</text>
+<text x="20" y="262" fill="#8888a0" font-size="11">Arrow = normal n, from Q towards the ball centre.</text>
+</svg>

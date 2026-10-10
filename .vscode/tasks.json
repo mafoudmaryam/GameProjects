@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build current EasyX file",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "-std=gnu++11",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "-leasyx",
+        "-lgdi32",
+        "-lole32",
+        "-luuid"
+      ],
+      "options": { "cwd": "${fileDirname}" },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Build & run current EasyX file",
+      "type": "shell",
+      "command": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "options": { "cwd": "${fileDirname}" },
+      "dependsOn": "Build current EasyX file",
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true }
+    }
+  ]
+}
