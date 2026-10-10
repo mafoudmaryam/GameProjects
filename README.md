@@ -6,6 +6,14 @@ Every lesson is a small, working game or experiment. You read a short explanatio
 
 > **Game = Logic + Data.** The logic is your algorithms and rules; the data is your content and characters. This guide teaches both, one small step at a time.
 
+<p align="center">
+  <img src="docs/screenshots/runner.png" width="32%" alt="Jump Runner">
+  <img src="docs/screenshots/archery.png" width="32%" alt="Balloon Archery">
+  <img src="docs/screenshots/cannon.png" width="32%" alt="Cannon Shooter">
+</p>
+
+🖼️ **See every game as a picture, with its code, in the [Game Gallery](GALLERY.md).**
+
 ---
 
 ## 🗺️ The learning path
@@ -85,12 +93,14 @@ Practices from the course that are not in this repo yet (Breakout, "Going down 1
 ```
 .
 ├── README.md                 ← you are here
+├── GALLERY.md                ← every game as a picture + code
 ├── build.bat                 ← one-command build & run (Windows + MinGW)
 ├── docs/
 │   ├── setup.md              ← install the tools
 │   ├── software-practices.md ← process, roles, planning, git
 │   ├── bug-museum.md         ← bugs and how they were fixed
-│   └── diagrams/             ← SVG figures used in the lessons
+│   ├── diagrams/             ← SVG figures used in the lessons
+│   └── screenshots/          ← pictures of each game
 ├── lessons/
 │   ├── 01-drawing-on-screen/
 │   ├── 02-game-loop-runner/
@@ -98,8 +108,10 @@ Practices from the course that are not in this repo yet (Breakout, "Going down 1
 │   ├── 04-projectile-cannon/
 │   ├── 05-bomberman/
 │   └── 06-collision-lab/
-└── templates/
-    └── weekly-report.md
+├── templates/
+│   └── weekly-report.md
+└── tools/
+    └── easyx-snapshot/       ← makes the screenshots without Windows
 ```
 
 ---

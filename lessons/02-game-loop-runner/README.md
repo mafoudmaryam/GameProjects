@@ -2,6 +2,8 @@
 
 > A game is an animation that **listens**. Add input and rules to Lesson 1's loop, and it becomes playable.
 
+<p align="center"><img src="../../docs/screenshots/runner.png" width="600" alt="runner_jump.cpp"><br><sub>runner_jump.cpp, drawn by the real code</sub></p>
+
 ## 🎯 Goal
 
 Understand the **game loop**, simulate **gravity**, detect **collisions** between boxes, and keep **score** correctly.

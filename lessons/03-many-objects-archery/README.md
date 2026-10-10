@@ -2,6 +2,8 @@
 
 > One ball is easy. Thirty arrows and five balloons, all moving at the same time, need **structure**.
 
+<p align="center"><img src="../../docs/screenshots/archery.png" width="600" alt="balloon_archery.cpp"><br><sub>balloon_archery.cpp, drawn by the real code</sub></p>
+
 ## 🎯 Goal
 
 Group data with `struct`, manage many objects with **arrays**, reuse objects with an **object pool**, detect **circle collisions**, and react to a key **press** instead of a key **hold**.

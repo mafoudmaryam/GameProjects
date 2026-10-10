@@ -2,6 +2,10 @@
 
 > Big games are not written in one go. They are built in **small steps that each run**. This lesson shows a real game growing over three files, and gives you the plan to finish it.
 
+| <sub>step 1</sub> | <sub>step 2</sub> | <sub>step 3</sub> |
+|---|---|---|
+| <img src="../../docs/screenshots/step1.png" width="260" alt="step 1"> | <img src="../../docs/screenshots/step2.png" width="260" alt="step 2"> | <img src="../../docs/screenshots/step3.png" width="260" alt="step 3"> |
+
 ## 🎯 Goal
 
 Represent a level as a **grid** (a 2D array), generate it with rules and **randomness**, move a player along lanes with the keyboard, and practice **incremental development**.
