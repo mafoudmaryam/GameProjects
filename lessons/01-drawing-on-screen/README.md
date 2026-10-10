@@ -2,6 +2,8 @@
 
 > Every game you have ever played is, at its heart, a program that **draws a picture, changes it a little, and draws it again**, many times per second. This lesson teaches the "draw a picture" part.
 
+<p align="center"><img src="../../docs/screenshots/hello_shapes.png" width="600" alt="hello_shapes.cpp"><br><sub>hello_shapes.cpp, drawn by the real code</sub></p>
+
 ## 🎯 Goal
 
 Open a window, understand screen coordinates, mix colors with RGB, draw shapes and text, and make one shape move.

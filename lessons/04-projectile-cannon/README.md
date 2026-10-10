@@ -2,6 +2,8 @@
 
 > Lesson 2 had gravity in one direction. Now the ball flies in **two** dimensions, launched at any angle, and you can *see* the physics as a trail.
 
+<p align="center"><img src="../../docs/screenshots/cannon.png" width="600" alt="cannon_projectile.cpp"><br><sub>cannon_projectile.cpp, drawn by the real code</sub></p>
+
 ## 🎯 Goal
 
 Turn an angle and a power into a velocity with `sin` and `cos`, simulate projectile motion, draw a trail with an array, and build a simple **HUD** (heads-up display).

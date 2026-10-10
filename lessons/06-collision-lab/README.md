@@ -2,6 +2,10 @@
 
 > "Did it hit?" is easy. "Where did it hit, and which way should it bounce?" is where game programming meets geometry. These two programs are **experiments**: they draw the normal, the velocity and the angles live so you can *watch* the math work.
 
+| <sub>triangle_bounce.cpp</sub> | <sub>circle_rect_collision.cpp</sub> |
+|---|---|
+| <img src="../../docs/screenshots/triangle.png" width="380" alt="triangle_bounce.cpp"> | <img src="../../docs/screenshots/circle_rect.png" width="380" alt="circle_rect_collision.cpp"> |
+
 ## 🎯 Goal
 
 Find the **closest point** on a shape, compute the surface **normal**, reflect a velocity with **v' = v − 2(v·n)n**, and understand two classic physics bugs: **sticking** and **tunneling**.
